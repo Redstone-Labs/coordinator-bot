@@ -1,0 +1,40 @@
+name: "Bug report"
+description: "File a bug report for the bot."
+labels: ["bug"]
+body:
+ - type: markdown
+   attributes:
+     value: |
+      Thanks for filling out a bug report. Please complete all the required fields in order to proceed.
+
+ - type: input
+   id: describe
+   attributes:
+     label: Bug description
+     description: Briefly describe the bug
+   validations:
+     required: true
+  - type: input
+   id: expected_behavior
+   attributes:
+     label: Expected behaviour
+     description: What should happen?
+   validations:
+     required: true
+  - type: input
+   id: steps
+   attributes:
+     label: Steps to reproduce
+     description: Provide clear and consice steps to reproduce the bug.
+     placeholder: 1.\n2.\n3.\n...
+   validations:
+     required: true
+  - type: input
+   id: discord
+   attributes:
+     label: Discord username
+     description: We might need to contact you directly regarding this issue.
+   validations:
+     required: false
+
+
