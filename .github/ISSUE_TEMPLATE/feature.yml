@@ -1,0 +1,30 @@
+name: "Feature request"
+description: "Request a feature or propose an improvement."
+labels: ["bug"]
+body:
+ - type: markdown
+   attributes:
+     value: |
+      Please make sure that your ideas have not already been suggestd.
+
+ - type: input
+   id: describe
+   attributes:
+     label: Suggest your feature
+     description: Please be as clear as possible with that you wish to add.
+   validations:
+     required: true
+  - type: input
+   id: improve
+   attributes:
+     label: How will this feature/proposition improve the overall user experience?
+     placeholder: I believe that this feature would benefit a lot of people because it would solve...
+   validations:
+     required: true
+  - type: input
+   id: discord
+   attributes:
+     label: Discord username
+     description: We might need to contact you directly regarding this issue.
+   validations:
+     required: false
