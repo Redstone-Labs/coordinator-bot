@@ -14,8 +14,8 @@ body:
    description: Please be as clear as possible with that you wish to add.
   validations:
      required: true
-- type: 
-  id: textarea
+- type: textarea
+  id: improve
   attributes:
    label: How will this feature/proposition improve the overall user experience?
    placeholder: I believe that this feature would benefit a lot of people because it would solve...
