@@ -10,16 +10,16 @@ body:
 - type: textarea
   id: describe
   attributes:
-     label: Suggest your feature
-     description: Please be as clear as possible with that you wish to add.
-   validations:
+   label: Suggest your feature
+   description: Please be as clear as possible with that you wish to add.
+  validations:
      required: true
 - type: 
   id: textarea
   attributes:
-     label: How will this feature/proposition improve the overall user experience?
-     placeholder: I believe that this feature would benefit a lot of people because it would solve...
-   validations:
+   label: How will this feature/proposition improve the overall user experience?
+   placeholder: I believe that this feature would benefit a lot of people because it would solve...
+  validations:
      required: true
 - type: input
   id: discord
