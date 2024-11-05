@@ -26,7 +26,7 @@ class SupportCommands(commands.Cog):
                                                "Our development team is consisted of volunteers who do not get paid for the time and effort put into this project. \
                                                 That being said, we do not enforce deadlines on any of our work. We try to get thigns done as fast as possible for your own convenience, but please take into \
                                                 consideration that we are all busy with life things outside of this. Rest assured that we dilligently working to deliver quality \
-                                                products for you to use.")) 
+                                                products for you to use."), content=f'<@{user.id}>' if user else None) 
 
 async def setup(bot):
     load_dotenv()
