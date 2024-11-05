@@ -3,7 +3,7 @@ description: "Request a feature or propose an improvement."
 labels: ["bug"]
 body:
 - type: markdown
-   attributes:
+  attributes:
      value: |
       Please make sure that your ideas have not already been suggestd.
 
