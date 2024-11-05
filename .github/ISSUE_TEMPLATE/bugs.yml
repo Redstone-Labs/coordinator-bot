@@ -2,7 +2,7 @@ name: "Bug report"
 description: "File a bug report for the bot."
 labels: ["bug"]
 body:
- - type: markdown
+  - type: markdown
    attributes:
      value: |
       Thanks for filling out a bug report. Please complete all the required fields in order to proceed.
