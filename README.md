@@ -13,6 +13,9 @@ GUILD_ID= ... /* The guild ID the bot will be registering slash commands in */
 ```
 3. Download all the requirements.txt dependancies using ``pip3 install -r requirements.txt``
 
+## Linting
+A linter is already provided with the source code.
+
 ------
 
 Written using the nextcord python library.
